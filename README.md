@@ -20,7 +20,7 @@ Es por eso que se requiere un diseño factible para un sismógrafo bajo costo qu
 
 
 ## Documentación
-En este espacio se describirá la documentación del proyecto y en el sitio web: [GitHub](https://github.com/JhoelRN/Low-cost-seismograph-Mercalli-intensity-ESP32).
+En este espacio se describirá la documentación del proyecto: [GitHub](https://github.com/JhoelRN/Low-cost-seismograph-Mercalli-intensity-ESP32).
 
 En este espacio se encuentran los archivos como son los programas .ino y programas html. 
 También se puede encontrar documentación del informe final del trabajo y en modo resumen un artículo v1.
