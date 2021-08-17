@@ -4,24 +4,7 @@
 # Low-cost-seismograph-Mercalli-intensity-ESP32
 Sistema de medición intensidada Mercalli de ultra bajo costo, construido con componentes accesibles. Este proyecto busca acercar estudios de sismología a más estudiantes, haciendo que el costo no sea una barrera.
 
-<p align="center">
 ![implementasis](https://user-images.githubusercontent.com/62358739/129647080-57a27355-7e05-47a8-afac-6daac7f7d188.png)
-</p>
-
-<p align="center">
-  <a href="https:www.youtube.com/c/levem"><img src="![implementasis](https://user-images.githubusercontent.com/62358739/129646759-71f9ec2b-a7d9-4634-aefc-af9049a3fdc2.png)" width="300" alt="Sismógrafo con comunicación inalámbrica Wifi" /></a>
-</p>
-
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/62358739/129646782-c0365116-a857-4e23-ac4c-3dcd02834b14.png>
-</p>
-
-
-<p align="center">
-  <img width="600" height="200" src="![implementasis](https://user-images.githubusercontent.com/62358739/129646866-18f1ec0a-d104-4aff-8796-3083c419b52b.png)">
-</p>
-
 
 
 ## Planteamiento inicial
@@ -31,12 +14,8 @@ En defecto, en la región de Arequipa se ve que existe deficiencia de sistema qu
 
 Es por eso que se requiere un diseño factible para un sismógrafo bajo costo que sea capaz de captar magnitudes y parámetros de un sismo con acceso a portabilidad e información compartida mediante wifi.
 
-El año 2021, se estará presentando este proyecto opensource para que pueda ser usado en una nueva categoría de concurso: **Robótica Minihumanoide**, dentro del congreso anual de la **IEEE** sección Perú: 
 
 
-<p align="center">
-  <a href="https:www.youtube.com/c/levem"><img src="![implementasis](![captures](https://user-images.githubusercontent.com/62358739/129646513-32ea6454-3a68-4d9b-9d57-d95ec313fc27.png))" width="300" alt="Sismógrafo con comunicación inalámbrica Wifi" /></a>
-</p>
 
 
 
@@ -47,13 +26,21 @@ En este espacio se encuentran los archivos como son los programas .ino y program
 También se puede encontrar documentación del informe final del trabajo y en modo resumen un artículo v1.
 
 
+
 ## Diseño Funcional
+![funcionamiento](https://user-images.githubusercontent.com/62358739/129647294-a2c7bdb7-6818-445f-a763-217d2706413c.jpeg)
+  
+  ![diagramaseismograph](https://user-images.githubusercontent.com/62358739/129647404-38d81415-31fa-47ac-9ed7-30d5c9b00278.png)
+El algoritmo implementado se describe en la figura mostrada, de tal manera que inicia en la sensación de la magnitud de la aceleración. Con esta, al momento de pasar un umbral (valor especificado) genera un registro almacenado en un arreglo unidimensional de tamaño 'n'. Al momento de que se registre el evento de ondas, los datos son enviados a detectarse una amplitud de valor máximo. Éste último valor describirá la máxima sensación en el movimiento telúrico, y por medio de escala de Mercalli se registra un valor de salida regulada por valores Mercalli. Esta funcionalidad se realiza en un ciclo repetitivo loop, de tal manera que cada vez que se registre un movimiento se tenga un valor de salida y a la vez, siempre se anda verificando que se sobrepase el umbral para detección de su amplitud.
   
   
-  
+### Página web server
+![paginaRes](https://user-images.githubusercontent.com/62358739/129647362-17fdb7f1-7c1e-4726-9cef-00c1a0dc4e49.PNG)
+
+
 
 ## IOT Open Source
-Estes un proyecto de software y hardware opensource provisto bajo licencia Generic Public Licence v3.0. 
+Estes un proyecto de software y hardware opensource provisto bajo licencia Generic Public Licence v3.8.
 
 
 
