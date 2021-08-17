@@ -1,5 +1,3 @@
-#
-Low cost seismograph Mercalli intensity with wireless communication ESP32
 
 
 
@@ -7,7 +5,12 @@ Low cost seismograph Mercalli intensity with wireless communication ESP32
 Sistema de medición intensidada Mercalli de ultra bajo costo, construido con componentes accesibles. Este proyecto busca acercar estudios de sismología a más estudiantes, haciendo que el costo no sea una barrera.
 
 <p align="center">
-  <a href="https:www.youtube.com/c/levem"><img src="![implementasis](https://user-images.githubusercontent.com/62358739/129645811-63880771-4e7d-4a8d-8a7c-11ac0a99b639.png)" width="300" alt="Sismógrafo con comunicación inalámbrica Wifi" /></a>
+  <a href="https:www.youtube.com/c/levem"><img src="![implementasis](https://user-images.githubusercontent.com/62358739/129646759-71f9ec2b-a7d9-4634-aefc-af9049a3fdc2.png)" width="300" alt="Sismógrafo con comunicación inalámbrica Wifi" /></a>
+</p>
+
+
+<p align="center">
+  <img src="![implementasis](https://user-images.githubusercontent.com/62358739/129646782-c0365116-a857-4e23-ac4c-3dcd02834b14.png)" />
 </p>
 
 ## Planteamiento inicial
